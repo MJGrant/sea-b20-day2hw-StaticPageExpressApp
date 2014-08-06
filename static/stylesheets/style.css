@@ -10,7 +10,7 @@ a {
 }
 
 .centered { 
-  width:400px;
+  width:500px;
   text-align:center;
   margin:20px auto;
   background-color:#1e3e46;
@@ -20,7 +20,11 @@ a {
  
 .daysLeft {
   font-size:5em;
-  line-height:1em;
+  line-height:1.3em;
+}
+
+.classDays { 
+  font-size:.8em;
 }
 
 .today {
