@@ -1,0 +1,48 @@
+body { 
+  background-color:#aaa;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color:red;
+  text-decoration:dotted;
+}
+
+.centered { 
+  width:400px;
+  text-align:center;
+  margin:20px auto;
+  background-color:#1e3e46;
+  padding:40px;
+  border-radius:6px;
+}
+ 
+.daysLeft {
+  font-size:5em;
+  line-height:1em;
+}
+
+.today {
+  font-size:.7em;
+  margin-bottom:20px;
+}
+
+.aboutLink {
+  font-size:.7em;
+  margin:auto auto;
+  text-align:center;
+}
+
+.aboutLink a { 
+  color:white;
+}
+
+.small { 
+  font-size:.8em;
+}
+
+ul { 
+  list-style-type:none;
+  margin-left:-33px;
+}
