@@ -1,6 +1,6 @@
 {
   "name": "StaticPageExpressApp",
-  "description": "Static Page Express App ============================== Created for Full Stack JavaScript Dev Accelerator Day 2 Homework",
+  "description": "Static Page Express App Created for Full Stack JavaScript Dev Accelerator Day 2 Homework",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MJGrant/sea-b20-day2hw-StaticPageExpressApp/issues"
   },
-  "homepage": "https://github.com/MJGrant/sea-b20-day2hw-StaticPageExpressApp"
+  "homepage": "https://github.com/MJGrant/sea-b20-day2hw-StaticPageExpressApp",
+  "dependencies": {
+    "express": "^4.7.4"
+  }
 }
