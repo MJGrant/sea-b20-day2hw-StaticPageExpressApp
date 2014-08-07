@@ -18,5 +18,9 @@
   "homepage": "https://github.com/MJGrant/sea-b20-day2hw-StaticPageExpressApp",
   "dependencies": {
     "express": "^4.7.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0"
   }
 }
