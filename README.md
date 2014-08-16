@@ -7,4 +7,4 @@ This express app can tell you! It compares today's date to the September 26th, 2
 
 Includes link to an about page and an external link to the Code Fellows website.
 
-![alt text](https://github.com/MJGrant/sea-b20-day2hw-StaticPageExpressApp/blob/workingbranch/screenshots/nodeexpressapp.png "Days Remaining in Class Express App")
+![alt text](screenshots/nodeexpressapp.png "Days Remaining in Class Express App")
