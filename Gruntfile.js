@@ -1,11 +1,9 @@
 module.exports = function(grunt) {
 
-  //load plugins
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-express-server');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  //project config
   grunt.initConfig({
     jshint: {
       options: {
@@ -35,16 +33,12 @@ module.exports = function(grunt) {
         }
       },
     },
-    //watch is what keeps the server running
     watch: {
       files: ['server.js'],
       tasks: ['express:dev']
     }
   });
 
-  //define the default task
   grunt.registerTask('default',['jshint']);
-  //from Ivan:
-  //grunt.registerTask('serve', [ 'shell', 'build', 'express:dev','watch' ]);
   grunt.registerTask('serve', ['express:dev','watch']);
 };
